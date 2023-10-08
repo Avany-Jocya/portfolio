@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style_12.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Portfolio: AGON Jocya</title>
+    <script>
+        function openMenu() {
+            let nav = document.querySelectorAll("nav")
+            nav.forEach(element => {
+
+                element.classList.toggle("open")
+            });
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+<div id="container">
+    <!-- le header qui contient notre entête de site (logo, nav etc) -->
+    <header>
+        <nav>
+            <!-- id = unique (1 seul par page ) -->
+            <div id="logo"><img src="logo ptfl.png" alt="pfl logo"></div>
+            <i onclick="openMenu()" class="fa-solid fa-bars"></i>
+            <ul class="liste">
+                <!-- plusieurs classes possibles -->
+                <li>
+                    <a class="liens" href="#a-propos">A propos</a>
+                </li>
+                <li>
+                    <a class="liens" href="#experiences">Expériences</a>
+                </li>
+                <li>
+                    <a class="liens" href="#projets">Projets</a>
+                </li>
+            </ul>
+
+        </nav>
+        <nav class="mobile">
+            <!-- id = unique (1 seul par page ) -->
+            <div class="header-nav-mobile">
+                <div id="logo">LOGO</div>
+                <i onclick="openMenu()" class="fa-solid fa-xmark"></i>
+            </div>
+            <ul class="liste">
+                <!-- plusieurs classes possibles -->
+                <li>
+                    <a class="liens" href="#a-propos">A propos</a></li>
+                <li>
+                    <a class="liens" href="#experiences">Expériences</a> </li>
+                <li>
+                    <a class="liens" href="#projets">Projets</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- contenu principal changeant à chaque page -->
+    <main>
+        <section id="a-propos">
+            <h2>A propos</h2>
+            <p> En cours de reconversion professionnelle, 
+                je suis actuellement bercé par les flux 
+                numérique et informatique.
+
+            </p>
+            <figure class="a-propos">
+                <img src="flux.png" alt="flux">
+            </figure>
+        </section>
+        <section id="experiences">
+            <h2>Expériences</h2>
+            <p> Actuellement en formation DWWM avec l'AFCI,
+                j'apprend la maitrise de l'HTML et du CSS 
+            </p>
+            <figure class=" Experiences">
+
+                <img src="css.png" alt="logo css">
+                <img src="html.png" alt="logo html">
+                <img src="afci.png" alt=" logo afci">
+            </figure>
+   
+        </section>
+        <section id="projets">
+            <h2>projets</h2>
+            <p> Je souhaiterais ( ce n'est pour le moment qu'un défi)
+                devenir conceptrice d'application.
+            </p>
+        </section>
+    </main>
+    <!-- notre pied de page -->
+    <footer>
+      <p>“Informatique : Alliance d’un science inexacte et d’une activité humaine faillible.”
+Luc FayardDe Luc Fayard / Dictionnaire impertinent des branchés</p> 
+<figure class="footer">
+<img src="AGON Jocya.png" alt="banniere">
+
+</figure>
+ 
+    </footer>
+</div>
+
+</html>
