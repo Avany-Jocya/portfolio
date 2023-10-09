@@ -4,86 +4,17 @@
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-
-figcaption,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, frame, h1,
+h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em,
+img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol,
+ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th,
+td, article, aside, canvas, details, embed,
+figcaption, header, hgroup, menu, nav, output,
+ruby, section, summary, time, mark, audio, video
+ {
   margin: 0;
   padding: 0;
   border: 0;
@@ -95,8 +26,7 @@ video {
 article, aside ,details , figcaption,figure,footer,header,hgroup, menu, nav, body {
   line-height: 1;
 }
-ol,
-ul {
+ol, ul {
   list-style: none;
 }
 blockquote,q {
@@ -226,18 +156,22 @@ h2{
 
 .footer img {
 
-    width: 1300px;
-    height: 300px;
+    width: 102%;
+    height: 30%;
     display: flex;
     background-color: #E6E6FA;
     justify-content: center;
-   
+ 
    
 }
+
 .footer {
     height: 800px;
     padding-top: 10vh;
     background-color: #E6E6FA;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .a-propos img{
     width: 100px;
@@ -267,6 +201,29 @@ h2{
 .exemple img{
   height: 250px;
   width: 500px;
+}
+
+.projets img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 15px rgb(104, 114, 255);
+  display: flex;
+  
+
+ 
+}
+
+.projets{
+  flex: 0 1 50%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding: 10px;
+
 }
 
 
