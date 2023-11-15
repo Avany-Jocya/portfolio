@@ -1,130 +1,98 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style_12.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>Portfolio: AGON Jocya</title>
-    <script>
-        function openMenu() {
-            let nav = document.querySelectorAll("nav")
-            nav.forEach(element => {
-
-                element.classList.toggle("open")
-            });
-        }
-    </script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js" defer></script>
+    <title>Mon portfolio</title>
 </head>
-
 <body>
-
-</body>
-<div id="container">
-    <!-- le header qui contient notre entête de site (logo, nav etc) -->
-    <header>
-        <nav>
-            <!-- id = unique (1 seul par page ) -->
-            <div id="logo"><img src="logo jocya.png" alt="pfl logo"></div>
-            <i onclick="openMenu()" class="fa-solid fa-bars"></i>
-            <ul class="liste">
-                <!-- plusieurs classes possibles -->
-                <li>
-                    <a class="liens" href="#a-propos">A propos</a>
-                </li>
-                <li>
-                    <a class="liens" href="#experiences">Expériences</a>
-                </li>
-                <li>
-                    <a class="liens" href="#projets">Projets</a>
-                </li>
-            </ul>
-
-        </nav>
-        <nav class="mobile">
-            <!-- id = unique (1 seul par page ) -->
-            <div class="header-nav-mobile">
-                <div id="logo">LOGO</div>
-                <i onclick="openMenu()" class="fa-solid fa-xmark"></i>
-            </div>
-            <ul class="liste">
-                <!-- plusieurs classes possibles -->
-                <li>
-                    <a class="liens" href="#a-propos">A propos</a></li>
-                <li>
-                    <a class="liens" href="#experiences">Expériences</a> </li>
-                <li>
-                    <a class="liens" href="#projets">Projets</a></li>
-            </ul>
-
-        </nav>
-    </header>
-    <!-- contenu principal changeant à chaque page -->
-    <main>
-        <section id="a-propos">
-            <h2>A propos</h2>
-            <p> Après un parcours riche en découverte et en rebondissement.
-            </p>
-            <p>Parcourant divers métiers et divers environnement, 
-                Je me plonge dans les flux numériques et informatiques.
-                 </p>
-            <p> Actuellement en formation auprès de l’ AFCI, j’apprend ou réapprend les bases du codage natif afin de me parfaire pour devenir développeur dans un premier temps.
-                </p>
-                <p>
-                    J’ai de l’ambition et la volonté d’y arrivé.
-                </p>
-            <figure class="a-propos">
-                <img src="DWWM.png" alt="flux">
-            </figure>
-        </section>
-        <section id="experiences">
-            <h2>Expériences</h2>
-            <p> Actuellement en formation DWWM avec l'AFCI,
-                j'apprend la maitrise de l'HTML et du CSS 
-            </p>
-            <figure class=" Experiences">
-
-                <img src="css violet (3).png" alt="logo css">
-                <img src="htmlviolet.png" alt="logo html">
-                <img src="afci.png" alt=" logo afci">
-                <img src="figma.png" alt="figma">
-            </figure>
-            <p>Voici par exemple la création d'une maquette Portfolio
-                    sur Figma
-                </p>
-            <div class="exemple">
-                
-                <img src="figma-Accueil.png" alt="accueil figma-Accueil">
-                <img src="figma-A-Propos.png" alt="figma-A-Propos">
-                <img src="figma-Expériences.png" alt="figma-Expériences">
-                <img src="figma-Projet.png" alt="figma-Projet">
-                <img src="figma-contact.png" alt="figma-contact">
-
-            </div>
-   
-        </section>
-        <section id="projets">
-            <h2>Projets</h2>
-            <p> Je souhaiterais ( ce n'est pour le moment qu'un défi)
-                devenir conceptrice d'application.
-            </p>
-            <div class=" projets">
-                <img src="flux.png" alt=" flux">
-
-            </div>
-        </section>
-    </main>
-    <!-- notre pied de page -->
-    <footer>
-      <p>“Informatique : Alliance d’un science inexacte et d’une activité humaine faillible.”
-Luc FayardDe Luc Fayard / Dictionnaire impertinent des branchés</p> 
-<figure class="footer">
-<img src="AGON Jocya.png" alt="banniere">
-
-</figure>
  
-    </footer>
-</div>
+    <nav>
+        <i id="menu-button" class="bi bi-list"></i>
+        <span class="brand"></span>
+        <ul id="menu-closed" class="menu">
+          <li>
+            <a class="link" href="Portfolio.html">Acceuil</a>
+          </li>
+          <li>
+            <a class="link" href="a-propos.html">A propos</a>
+          </li>
+           <li>
+            <a class="link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+   
+<header>
+    <h1>Bonjour cher(e)
+        <span
+           class="txt-rotate"
+           data-period="2000"
+           data-rotate='[ " client(e).", " jury.", " recruteur.", " curieux(se)." ]'></span>
+      </h1>
+      <h2>Mon nom est Jocya AGON. 
+      </h2>   
 
+</header>
+<p>
+        Je suis actuellement apprenti développeur web et web mobile.
+        Apte du flashy et coloré, j'opte énormément pour de la dynamique sur chacun des sites que j'apprend a concevoir actuellement.
+        Pour moi, la vie en couleur, c'est le secret du bonheur!
+
+      </p>
+    
+<section id="Presentation">
+    <div class="Presa">
+        <h2>Quelques informations sur moi...</h2>
+        <div class="presa-flex">
+            <h3>Petite présentation</h3>
+            <p>Après avoir parcourus le monde du travail en long en large et en travers, je me suis retrouver a suivre les pas de mon grand frère dans le monde informatique. Cet univers de language et de flux de donnée reste un domaine mystérieux qui a su m'intéressé.</p>
+        </div>
+        <div class="presa-flex">
+            <h3>Mes passions </h3>
+            <p>Je suis passionnée par l'art en générale. Ecrivaine a mes heures perdu, peintre lorsque le coeur n'y est plus. La musique et le chant pour faire danser les gens. L'édition de vidéo ou d'image pour aider les plus sages.</p>
+        </div>
+        <div class="presa-flex">
+            <h3> Mes points forts</h3>
+            <p>Selon le point de vue d'amis, famille et même d'inconnu, je suis quelqu'un de solaire et sociale. Je suis chaleureuse et ponctuelle. Motivée et ambitieuse, je donne le maximum de moi même pour que tout le monde soit satisfait.</p>
+        </div>
+        <div class="presa-flex">
+            <h3>Mes points faibles</h3>
+            <p> Dans le monde actif du travail, la curiosité peut paraitre comme un défaut. Je suis curieuse et parfois bornée. 
+
+                Pour certain c'est un défaut, mais pour moi c'est la plus belle des qualités: Je suis maman de Deux enfants.
+            </p>
+        </div>
+        <div class="presa-flex">
+            <h3>Compétence</h3>
+            <p> Lorem ipsum Jean Claude Van Damme : Si je t'emmerde, tu me le dis, après il faut s'intégrer tout ça dans les environnements et en vérité, la vérité, il n'y a pas de vérité car l'aboutissement de l'instinct, c'est l'amour ! Il y a un an, je t'aurais parlé de mes muscles.
+
+
+            </p>
+        </div>
+        <div class="presa-flex">
+            <h3>Petit Mot de la fin </h3>
+            <p> Je ne me pense pas apte a décrocher la lune, mais je peux au moins essayer de faire briller des étoiles dans vos yeux.</p>
+        </div>
+</section>
+
+<footer id="footer">
+    <div class="container-fluid">
+       
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/" target="_blank"> facebook<i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank">instagram<i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank">twitter<i class="fab fa-twitter"></i></a>
+           
+        </div>
+    </div>
+    
+</footer>
+</body>
 </html>

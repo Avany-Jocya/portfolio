@@ -1,0 +1,151 @@
+* {
+  list-style: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  font-family: 'Raleway', sans-serif;
+  /* padding: 1em 2em; */
+  font-size: 18px;
+  background: hsl(223, 98%, 25%);
+  color: #00FFFF;
+background-image: url(/image/background\ header.jpg);
+background-size: cover;
+}
+
+
+h1,h2,h3,h4 {
+  
+  font-weight: 200;
+  margin: 0.1em 0;
+  position: sticky;
+  margin-top: 5px;
+}
+h1 { font-size: 2.5em; }
+h2 {
+  color: #00FFFF;
+  font-size: 1.5em;
+};
+h3{
+  color: #00FFFF;
+  font-size: 1.5em
+}
+h4{
+  color: whitesmoke;
+  font-size: 1.5em;
+  /* position: absolute; */
+}
+a{
+  color: #00FFFF;
+}
+
+header{
+  background-color:rgba(5, 5, 5, 0.5);
+
+}
+footer {
+  background-color:rgba(1, 1, 133, 0.5);
+   text-align: center;
+    bottom:0;  
+    width:100%;
+    height:50px;   
+ margin-bottom: 0;
+ }
+
+
+nav {
+  position: sticky;
+  top: 0;
+  height: 3.5em;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color:rgba(5, 5, 5, 0.5);
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  color: whitesmoke;
+  padding: 0 0.5em;
+}
+
+
+menu-button {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  
+  menu-button {
+    
+    display: inline;
+    color: whitesmoke;
+    font-size: 2em;
+
+    cursor: pointer;
+  }
+  .menu {
+    
+    position: absolute;
+    top: 3.6em;
+    background-color: rgba(4, 36, 84, 0.952);
+    flex-direction: column;
+    min-width: 50%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  menu-closed {
+    left: -100%;
+  }
+  menu-opened {
+    left: 0;
+  }
+}
+
+p {
+  
+  color: azure;
+  font-family: serif;
+  font-size: larger;
+ /* position: absolute; */
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top: 50px;
+
+
+ background-color: rgba(0, 0, 0, 0.7) ;
+}
+.servicesText.card {
+  height: 280px;
+  
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+  color: #ffffff;
+}
+.fab {
+  color: #ffffff;
+}
+
