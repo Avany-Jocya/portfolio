@@ -18,7 +18,7 @@
      
         <ul id="menu-closed" class="menu">
           <li>
-            <a class="link" href="Portfolio.php">Acceuil</a>
+            <a class="link" href="index.php">Acceuil</a>
         </li>
          <li>
           <a class="link" href="a-propos.php">A propos</a>
