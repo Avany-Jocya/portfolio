@@ -18,13 +18,13 @@
         
         <ul id="menu-closed" class="menu">
           <li>
-            <a class="link" href="Portfolio.html">Acceuil</a>
+            <a class="link" href="Portfolio.php">Acceuil</a>
         </li>
          <li>
-          <a class="link" href="a-propos.html">A propos</a>
+          <a class="link" href="a-propos.php">A propos</a>
         </li>
         <li>
-          <a class="link" href="contact.html">Contact</a>
+          <a class="link" href="contact.php">Contact</a>
         </li>
        
         </ul>
