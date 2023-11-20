@@ -52,19 +52,19 @@ let TxtRotate = function(el, toRotate, period) {
   };
 
 
-const menuButtonElement = document.getElementById("menu-button");
+const menuButtonElement = document.querySelector("#menu-button");
+let navBar = document.querySelector("#nav-bar");
+let navLinks=navBar.querySelectorAll("li")
 menuButtonElement.addEventListener("click", () => {
-  
-  const menuElement = document.querySelector(".menu");
-
-  if (menuElement.id == "menu-closed") {
-  
-    menuElement.id = "menu-opened";
-  } else {
-
-    menuElement.id = "menu-closed";
-  }
+  navBar.classList.toggle("active");
+  menuButtonElement.classList.toggle("fa-times");
 });
+navLinks.forEach((navLinks)=> {
+  navLinks.addEventListener("click",()=>{
+    navBar.classList.remove("active");
+    menuButtonElement.classList.toggle("fa-times");
+  })
+})
   
   
   

@@ -13,20 +13,22 @@
     <title>Mon portfolio</title>
 </head>
 <body>
-    <nav>
-        <i id="menu-button" class="bi bi-list"></i>
-     
+<nav id="nav-bar">
+        <i id="menu-button" class="fa-times"></i>
+        <span class="brand"></span>
         <ul id="menu-closed" class="menu">
           <li>
             <a class="link" href="index.php">Acceuil</a>
-        </li>
-         <li>
-          <a class="link" href="a-propos.php">A propos</a>
-        </li>
-        <li>
-          <a class="link" href="contact.php">Contact</a>
-        </li>
-       
+          </li>
+          <li>
+            <a class="link" href="Perso.php">Un peu de moi</a>
+          </li>
+          <li>
+            <a class="link" href="parcours.php">Parcours et compétence</a>
+          </li>
+           <li>
+            <a class="link" href="contact.php">Contact</a>
+          </li>
         </ul>
       </nav>
       <div class="contact">

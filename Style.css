@@ -9,10 +9,8 @@
 html,body {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  background: hsl(223, 98%, 25%);
-  color: #00FFFF;
-background-image: url(/image/background\ header.jpg);
-background-size: cover;
+  background: #E1C699;
+  color:rgb(75, 42, 42);
 }
 
 
@@ -25,28 +23,25 @@ h1,h2,h3,h4 {
 }
 h1 { font-size: 2.5em; }
 h2 {
-  color: #00FFFF;
+  color: rgb(75, 42, 42);
   font-size: 1.5em;
 };
 h3{
-  color: #00FFFF;
+  color: rgb(75, 42, 42);
   font-size: 1.5em
 }
 h4{
-  color: whitesmoke;
+  color:#87f590;
   font-size: 1.5em;
 
 }
 a{
-  color: #00FFFF;
+  color: #87f590;;
 }
 
-header{
-  background-color:rgba(5, 5, 5, 0.5);
 
-}
 footer {
-  background-color:rgba(1, 1, 133, 0.5);
+ 
    text-align: center;
     bottom:0;  
     width:100%;
@@ -63,7 +58,7 @@ nav {
   align-items: stretch;
   justify-content: space-between;
   flex-direction: column;
-  background-color:rgba(5, 5, 5, 0.5);
+ 
 }
 
 .menu {
@@ -73,7 +68,7 @@ nav {
 }
 
 .link {
-  color: whitesmoke;
+  color: #87f590; ;
   padding: 0 0.5em;
 }
 
@@ -89,7 +84,7 @@ menu-button {
   menu-button {
     
     display: inline;
-    color: whitesmoke;
+    color: rgb(206, 206, 206);
     font-size: 2em;
 
     cursor: pointer;
@@ -98,7 +93,7 @@ menu-button {
     
     position: absolute;
     top: 3.6em;
-    background-color: rgba(4, 36, 84, 0.952);
+   
     flex-direction: column;
     min-width: 50%;
     transition: all 0.5s ease-in-out;
@@ -114,7 +109,7 @@ menu-button {
 
 p {
   
-  color: azure;
+  color: rgb(255, 255, 255);
   font-family: serif;
   font-size: larger;
  /* position: absolute; */
@@ -123,7 +118,7 @@ p {
  margin-top: 50px;
 
 
- background-color: rgba(0, 0, 0, 0.7) ;
+
 }
 .servicesText.card {
   height: 280px;
@@ -142,9 +137,9 @@ p {
   cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-  color: #ffffff;
+  color: rgb(75, 42, 42);
 }
 .fab {
-  color: #ffffff;
+  color: rgb(75, 42, 42);
 }
 
