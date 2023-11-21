@@ -9,12 +9,16 @@
     />
     <link rel="stylesheet" href="style.css">
     <script type="module" src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
     <title>Mon portfolio</title>
 </head>
 <body>
  
 <nav id="nav-bar">
-        <i id="menu-button" class="fa-times"></i>
+        <i id="menu-button" class="fa fa-bar"></i>
         <span class="brand"></span>
         <ul id="menu-closed" class="menu">
           <li>
@@ -32,37 +36,27 @@
         </ul>
       </nav>
    
-<header>
-    <h1>Bonjour cher(e)
+<header id="header">
+<div class="one" style="line-height:65px">  
+<h1>
         <span
-           class="txt-rotate"
+           class="txt-rotate "
            data-period="2000"
-           data-rotate='[ " client(e).", " jury.", " recruteur.", " curieux(se)." ]'></span>
+           data-rotate='[ " Hello!", " Hi!", " Bonjour!", "Hola!"," 안녕하십니까." ]'></span>
       </h1>
-      <h2>Mon nom est Jocya AGON. 
+      <h2>Jocya Agon a.k.a Avany
       </h2>   
-
+ <p class="flotte"><img src="/Jocya Agon.jpg" alt="logo">
+       Un informaticien ne crie pas...Iel Url!</p> 
+</div>
+      
 </header>
-<p>
-        Je suis actuellement apprenti développeur web et web mobile.
-        Apte du flashy et coloré, j'opte énormément pour de la dynamique sur chacun des sites que j'apprend a concevoir actuellement.
-        Pour moi, la vie en couleur, c'est le secret du bonheur!
 
-      </p>
+
+      
     
 <!--  -->
 
-<footer id="footer">
-    <div class="container-fluid">
-       
-        <div class="social-icons mt-4">
-            <a href="https://www.facebook.com/" target="_blank"> facebook<i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/" target="_blank">instagram<i class="fab fa-instagram"></i></a>
-            <a href="https://www.twitter.com/" target="_blank">twitter<i class="fab fa-twitter"></i></a>
-           
-        </div>
-    </div>
-    
-</footer>
+
 </body>
 </html>

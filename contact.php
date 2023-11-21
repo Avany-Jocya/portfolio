@@ -10,6 +10,10 @@
     />
     <link rel="stylesheet" href="style.css">
     <script type="module" src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
     <title>Mon portfolio</title>
 </head>
 <body>
@@ -32,40 +36,23 @@
         </ul>
       </nav>
       <div class="contact">
-        <h2>Contact</h2>
-        <div class="contact-flex">
-            <p>Nom : </p>
-            <p>AGON Jocya</p>
-        </div>
-        <div class="contact-flex">
-            <p>Adresse : </p>
-            <p>6 Allée des Rosati Appt 13- 62000 Arras</p>
-        </div>
-        <div class="contact-flex">
-            <p> Téléphone</p>
-            <p>07 68 59 66 69</p>
-        </div>
-        <div class="contact-flex">
-            <p>E-Mail</p>
+            <p class="info">Nom : </p>
+            <p class="info">AGON Jocya</p>
+        
+            <p class="info">Adresse : </p>
+            <p class="info">6 Allée des Rosati Appt 13- 62000 Arras</p>
+        
+            <p class="info"> Téléphone</p>
+            <p class="info">07 68 59 66 69</p>
+        
+            <p class="info">E-Mail</p>
             <p><a href="mailto:agonjocya@gmail.com">agonjocya@gmail.com</a></p>
-        </div>
-        <div class="contact-flex">
-            <p>Permis : </p>
-            <p>B</p>
+        
+            <p class="info">Permis :B</p>
         </div>
        
-    </div>
+    
       
 </body>
-<footer id="footer">
-        <div class="container-fluid">
-            <!-- social media icons -->
-            <div class="social-icons mt-4">
-                <a href="https://www.facebook.com/" target="_blank"> facebook<i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/" target="_blank">instagram<i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com/" target="_blank">twitter<i class="fab fa-twitter"></i></a>
-               
-            </div>
-        </div>
-    </footer>  
+
 </html>

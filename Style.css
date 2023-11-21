@@ -1,16 +1,7 @@
-* {
-  list-style: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 html,body {
-  font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  background: #E1C699;
-  color:rgb(75, 42, 42);
+ background-color: #0e0c07;
+  color:#9e9e9e;
 }
 
 
@@ -21,33 +12,31 @@ h1,h2,h3,h4 {
   position: sticky;
   margin-top: 5px;
 }
-h1 { font-size: 2.5em; }
+h1 { 
+  font-size: 2.5em;
+  font-family:Georgia, Times, "Times New Roman", serif;
+} ;
+ 
 h2 {
-  color: rgb(75, 42, 42);
+  color: #e5b51c;
   font-size: 1.5em;
-};
+  font-family: 'Ephesis', cursive;
+ 
+}
 h3{
-  color: rgb(75, 42, 42);
+  color: #e5b51c;
   font-size: 1.5em
 }
 h4{
-  color:#87f590;
+  color:#e5b51c;
   font-size: 1.5em;
 
 }
 a{
-  color: #87f590;;
+  color: #e7cdb1;;
 }
 
 
-footer {
- 
-   text-align: center;
-    bottom:0;  
-    width:100%;
-    height:50px;   
- margin-bottom: 0;
- }
 
 
 nav {
@@ -60,6 +49,43 @@ nav {
   flex-direction: column;
  
 }
+header{
+   text-align: right; 
+   display: block; 
+  margin-top: 30%; 
+ } 
+p {
+  
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top: 50px;
+ font-family: 'Grechen Fuemen', cursive;
+}
+.one{
+  /* text-align: right; */
+  font-family: 'Grechen Fuemen', cursive;
+
+}
+/* img{
+ height: 50px;
+ width: 60px;
+  
+} */
+img {
+  vertical-align:top;
+  width: 300px;
+  margin: auto;
+}
+.flotte {
+  float: left;
+  text-align: right;
+  }
+.contact{
+  text-align: center;
+  font-family: 'Grechen Fuemen', cursive;
+}
 
 .menu {
   position: relative;
@@ -68,14 +94,14 @@ nav {
 }
 
 .link {
-  color: #87f590; ;
+  color: #e5b51c; 
   padding: 0 0.5em;
 }
 
 
-menu-button {
+/* menu-button {
   display: none;
-}
+} */
 
 
 
@@ -99,47 +125,15 @@ menu-button {
     transition: all 0.5s ease-in-out;
   }
 
-  menu-closed {
-    left: -100%;
-  }
-  menu-opened {
-    left: 0;
-  }
-}
-
-p {
-  
-  color: rgb(255, 255, 255);
-  font-family: serif;
-  font-size: larger;
- /* position: absolute; */
- margin-left: 20px;
- margin-right: 20px;
- margin-top: 50px;
-
-
 
 }
-.servicesText.card {
-  height: 280px;
-  
-}
-.servicesIcon {
-  font-size: 36px;
+
+.card-text{
   text-align: center;
-  width: 100%;
+  font-family: 'Grechen Fuemen', cursive;
 }
 .card-title {
   text-align: center;
 }
-.social-icons {
-  font-size: 36px;
-  cursor: pointer;
-}
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-  color: rgb(75, 42, 42);
-}
-.fab {
-  color: rgb(75, 42, 42);
-}
+
 

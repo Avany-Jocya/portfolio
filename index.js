@@ -2,7 +2,7 @@ let TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
+    this.period = parseInt(period, 5) || 1000;
     this.txt = '';
     this.tick();
     this.isDeleting = false;
@@ -62,7 +62,7 @@ menuButtonElement.addEventListener("click", () => {
 navLinks.forEach((navLinks)=> {
   navLinks.addEventListener("click",()=>{
     navBar.classList.remove("active");
-    menuButtonElement.classList.toggle("fa-times");
+    menuButtonElement.classList.toggle("fa-bar");
   })
 })
   
