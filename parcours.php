@@ -10,22 +10,27 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css”>
     <link rel="stylesheet" href="style.css">
     <script type="module" src="index.js"></script>
     <title>Mon portfolio</title>
 </head>
 <body>
-<nav id="nav-bar">
-        <i id="menu-button" class="fa-times"></i>
-        <span class="brand"></span>
-        <ul id="menu-closed" class="menu">
+
+<header>
+<nav>
+        <i onclick="openMenu()" class="fa-solid fa-bars"></i>
+  
+        <ul class="liste">
           <li>
             <a class="link" href="index.php">Acceuil</a>
           </li>
           <li>
-            <a class="link" href="Perso.php">Un peu de moi</a>
+            <a class="link" href="Perso.php">A propos</a>
           </li>
           <li>
             <a class="link" href="parcours.php">Parcours et compétence</a>
@@ -35,36 +40,127 @@
           </li>
         </ul>
       </nav>
-      <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                            <h4 class="card-title mt-3"> css</h4>
-                            <p class="card-text ">Avec nôtre professeur, Monsieur Legoff, nous avons appris à réaliser des animations en CSS, colorés nos textes, créer un portfolio, un CV et bien d'autres choses. Le Css est un language principale du Web Ouvert. 
-                            </p>
-                </div>
-                <div class="col-lg-4 mt-4">
-                            <h4 class="card-title mt-3">Javascript</h4>
-                            <p class="card-text "> Javascript est un language de programmation d'objet que nous utilisons assez souvent. Ce language permet de faciliter et de lisser les différentes actions et animations nécessaire, il améliore la dynamique du site et mets en valeur le Css utilisé.
-                            </p> 
-                </div>
+      <nav class="mobile">
+      <div class="header-nav-mobile">
+        <i onclick="openMenu()" class="fa-solid fa-xmark""></i>
+  
+        <ul class="liste">
+          <li>
+            <a class="link" href="index.php">Acceuil</a>
+          </li>
+          <li>
+            <a class="link" href="Perso.php">A propos</a>
+          </li>
+          <li>
+            <a class="link" href="parcours.php">Parcours et compétence</a>
+          </li>
+           <li>
+            <a class="link" href="contact.php">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-                <div class="col-lg-4 mt-4">
-                            <h4 class="card-title mt-3">PHP</h4>
-                            <p class="card-text ">PHP est un language de script généraliste et Open source. Il est facilement intégrable a du HTML. L'approfondissement du language est encore a peaufiner mais nous y arriverons
-                            </p>
-                </div>
-            
-                <div class="col-lg-4 mt-4">
-                            <h4 class="card-title mt-3">Node js</h4>
-                            <p class="card-text ">Nous n'avons pas encore approfondit les informations sur Node Js cependant nous travaillons avec cet environnement Open Source lors de la conception de nôtre index.
-                            </p>
-                </div>
-            </div>
+ <div class="ag-format-container">
+
+  <div class="ag-courses_box">
+  <section>
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+         Javascript
         </div>
-    </section>
 
+        <div class="ag-courses-item_date-box">
+        langage de script léger, orienté objet, principalement connu comme le langage de script des pages web.
+       
+        </div>
+      </a>
+    </div>
 
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+         HTML
+        </div>
+
+        <div class="ag-courses-item_date-box">
+        « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte »
+         
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+        CSS
+        </div>
+
+        <div class="ag-courses-item_date-box">
+        CSS (Cascading Style Sheets en anglais, ou « feuilles de style en cascade ») sont le code utilisé pour mettre en forme une page web. 
+         
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          PHP
+        </div>
+
+        <div class="ag-courses-item_date-box">
+        langage de scripts généraliste et Open Source, spécialement conçu pour le développement d'applications web.
+         
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+         Figma
+        </div>
+
+        <div class="ag-courses-item_date-box">
+          Start:
+          <span class="ag-courses-item_date">
+            30.11.2022
+          </span>
+        </div>
+      </a>
+    </div>
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+         Node Js
+        </div>
+
+        <div class="ag-courses-item_date-box">
+          Start:
+          
+        </div>
+      </a>
+    </div>
+  </section>
+
+  </div>
+</div>
 </body>
 
 </html>

@@ -1,3 +1,6 @@
+
+
+
 let TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -52,19 +55,5 @@ let TxtRotate = function(el, toRotate, period) {
   };
 
 
-const menuButtonElement = document.querySelector("#menu-button");
-let navBar = document.querySelector("#nav-bar");
-let navLinks=navBar.querySelectorAll("li")
-menuButtonElement.addEventListener("click", () => {
-  navBar.classList.toggle("active");
-  menuButtonElement.classList.toggle("fa-times");
-});
-navLinks.forEach((navLinks)=> {
-  navLinks.addEventListener("click",()=>{
-    navBar.classList.remove("active");
-    menuButtonElement.classList.toggle("fa-bar");
-  })
-})
-  
-  
+
   
