@@ -1,6 +1,3 @@
-
-
-
 let TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -53,7 +50,3 @@ let TxtRotate = function(el, toRotate, period) {
     }
   
   };
-
-
-
-  
