@@ -86,7 +86,7 @@
       <a href="https://www.instagram.fr" title="facebook icônes">
         <img src="/image/instagram.png" alt="">
       </a>
-      <a href="https://www.linkedin.fr" title="facebook icônes">
+      <a href="https://fr.linkedin.com/" title="facebook icônes">
         <img src="/image/linkedin.png" alt="">
       </a>
       </div>      

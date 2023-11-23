@@ -136,10 +136,7 @@
         </div>
 
         <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            30.11.2022
-          </span>
+        Figma est un outil de design graphique collaboratif basé sur le Cloud.
         </div>
       </a>
     </div>
@@ -152,7 +149,7 @@
         </div>
 
         <div class="ag-courses-item_date-box">
-          Start:
+        Node.js est un environnement permettant d’exécuter du Javascript côté serveur.
           
         </div>
       </a>
