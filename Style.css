@@ -12,7 +12,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 html,body {
   font-size: 16px;
-background: url(/image/bck2.jpg);
+background-color: #2c2b2b;
 background-size: cover;
   color:#e5b51c;
  margin: 0;

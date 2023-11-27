@@ -64,7 +64,7 @@
           </li>
         </ul>
       </nav>
-</header>
+    </header>
 
       <div class="contact">
            
