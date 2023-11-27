@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>  function openMenu() {
+  let nav = document.querySelectorAll("nav")
+  nav.forEach(element => {
+
+      element.classList.toggle("open")
+  });
+} 
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="style.css" /> -->
