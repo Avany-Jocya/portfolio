@@ -73,7 +73,7 @@
          Javascript
         </div>
 
-        <div class="ag-courses-item_date-box">
+        <div class="ag-courses-item_text-box">
         langage de script léger, orienté objet, principalement connu comme le langage de script des pages web.
        
         </div>
@@ -88,7 +88,7 @@
          HTML
         </div>
 
-        <div class="ag-courses-item_date-box">
+        <div class="ag-courses-item_text-box">
         « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte »
          
         </div>
@@ -103,7 +103,7 @@
         CSS
         </div>
 
-        <div class="ag-courses-item_date-box">
+        <div class="ag-courses-item_text-box">
         CSS (Cascading Style Sheets en anglais, ou « feuilles de style en cascade ») sont le code utilisé pour mettre en forme une page web. 
          
         </div>
@@ -120,7 +120,7 @@
           PHP
         </div>
 
-        <div class="ag-courses-item_date-box">
+        <div class="ag-courses-item_text-box">
         langage de scripts généraliste et Open Source, spécialement conçu pour le développement d'applications web.
          
         </div>
@@ -135,7 +135,7 @@
          Figma
         </div>
 
-        <div class="ag-courses-item_date-box">
+        <div class="ag-courses-item_text-box">
         Figma est un outil de design graphique collaboratif basé sur le Cloud.
         </div>
       </a>
@@ -148,7 +148,7 @@
          Node Js
         </div>
 
-        <div class="ag-courses-item_date-box">
+        <div class="ag-courses-item_text-box">
         Node.js est un environnement permettant d’exécuter du Javascript côté serveur.
           
         </div>

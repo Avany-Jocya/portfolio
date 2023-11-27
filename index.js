@@ -46,7 +46,7 @@ let TxtRotate = function(el, toRotate, period) {
       let period = elements[i].getAttribute('data-period');
       if (toRotate) {
         new TxtRotate(elements[i], JSON.parse(toRotate), period);
-      }
-    }
+      };
+    };
   
   };
